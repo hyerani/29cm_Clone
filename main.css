@@ -1,0 +1,263 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+
+.main-brands {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  height: 4350px;
+}
+
+.main-brands img {
+  vertical-align: top;
+  border: 0;
+}
+
+.brand-imgs {
+  float: left;
+  width: 41.2%;
+  padding: 0 2% 0 0;
+  position: relative;
+  height: 4350px;
+}
+
+.brand-imgs::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 1px;
+  height: 100%;
+  background: #d4d4d4;
+  content: "";
+}
+
+.brand-imgs img {
+  display: block;
+  margin: 0px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.brand-events {
+  width: 54.8%;
+  padding: 0;
+  float: left;
+  height: 4350px;
+  position: relative;
+}
+
+/* flex 추가 */
+.brand-event {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  flex: flex;
+  flex-wrap: wrap;
+}
+
+.brand-event li {
+  float: left;
+}
+
+.brand-event img {
+  width: 100%;
+}
+
+.first-banner {
+  width: 50%;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.brand-event .highend {
+  left: 0%;
+  top: 0px;
+}
+
+.brand-event .my-brand {
+  left: 0;
+  top: 0px;
+}
+
+.brand-list {
+  margin: 0;
+  text-align: left;
+  width: 100%;
+  display: block;
+}
+
+.right-brand {
+  float: left;
+  width: 42%;
+  padding: 0 4%;
+  height: 100%;
+}
+
+.left-brand {
+  float: left;
+  width: 42%;
+  padding: 0 4%;
+  position: relative;
+  height: 100%;
+}
+
+
+.right-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.right-ul li {
+  position: relative;
+}
+
+.left-ul li {
+  position: relative;
+}
+
+.brand-events::after {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background: #d4d4d4;
+  content: "";
+}
+
+.right-top::after {
+  position: absolute;
+  width: 200px;
+  height: 4PX;
+  background-color: #000;
+  content: "";
+  display: block;
+  top: 80px;
+  left: -10px;
+}
+
+.left-top::after {
+  position: absolute;
+  width: 200px;
+  height: 4PX;
+  background-color: #000;
+  content: "";
+  display: block;
+  top: 80px;
+  left: -10px;
+}
+
+
+.event-content {
+  padding-right: 10px;
+}
+
+
+.brand-div {
+  display: block;
+  margin-top: 80px;
+  padding-top: 33px;
+  top: 0;
+  cursor: pointer;
+}
+
+/* 하기 내용은 공통 적용 스타일 */
+
+.title {
+  margin-top: 14px;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 30px;
+  word-break: keep-all;
+}
+
+.main-content {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 24px;
+  word-break: keep-all;
+}
+
+.sub-event {
+  position: relative;
+  margin-top: 20px;
+  padding: 15px 65px 10px 0;
+  border-top: 1px solid #d4d4d4;
+  box-sizing: border-box;
+}
+
+.sub-right {
+  padding-right: 10px;
+}
+
+
+.sub-title {
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 16px;
+  text-align: left;
+}
+
+.sub-content {
+  font-size: 11px;
+  line-height: 16px;
+  text-align: left;
+}
+
+.event-price {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: left;
+  color: #ff4800;
+  display: block;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.sub-img {
+  margin-top: 10px;
+  overflow: hidden;
+  left: 0;
+  width: 52px;
+  height: 52px;
+}
+
+
+.hearticon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 65px;
+  border-left: 1px solid #d4d4d4;
+  content: "";
+  color: #5d5d5d;
+}
+
+.heart-icon {
+  width: 14px;
+  font-size: 13px;
+  padding-bottom: 10px;
+  left: 9px;
+}
+
+.counter {
+  margin-top: 30px;
+  font-size: 11px;
+  right: 9%;
+}

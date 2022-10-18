@@ -1,0 +1,236 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+
+footer {
+  padding: 0 50px;
+}
+
+.footer-more {
+  /* height: 100%; */
+  padding: 20px 0 100px;
+  border-top: 1px solid #d4d4d4;
+  text-align: center;
+}
+
+.more-btn {
+  display: inline-block;
+  border: 2px solid black;
+  padding: 0;
+  width: 122px;
+  height: 48px;
+  font-size: 12px;
+  text-align: center;
+  background: none;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.cs-btn a {
+  display: inline-block;
+  position: relative;
+  border: 2px solid black;
+  border-radius: 2px;
+  background-color: #303033;
+  padding: 0 0 0 14px;
+  width: 94px;
+  color: white;
+  font-size: 15px;
+  line-height: 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.cs-btn i {
+  font-size: smaller;
+  color: #6e6e70;
+  padding: 0 0 0 10px;
+}
+
+.faq i {
+  padding: 0 0 0 30px;
+}
+
+.cs-info {
+  font-size: 12px;
+  margin-top: 16px;
+  font-weight: 600;
+}
+
+.cs {
+  position: relative;
+}
+
+.cs-icons {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 27px;
+}
+
+.cs-icons a {
+  display: inline-block;
+  width: 27px;
+  height: 27px;
+  margin-left: 4px;
+  font-size: 22px;
+  color: #030302;
+  cursor: pointer;
+}
+
+.google-icon i {
+  color: #6e6e70;
+}
+
+.cs-noti {
+  display: table;
+  width: 100%;
+  min-height: 160px;
+  margin-top: 17px;
+  padding: 9px 0 6px;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  table-layout: fixed;
+  box-sizing: border-box;
+}
+
+.cs-menu {
+  float: right;
+}
+
+.menu-ul {
+  display: block;
+}
+
+.menu-ul li {
+  float: left;
+  margin-right: 6px;
+}
+
+.menu-title {
+  padding-right: 103px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #303033;
+  line-height: 26px;
+}
+
+.menu-ul li a {
+  display: block;
+  margin-top: 2px;
+  font-size: 12px;
+  color: #303033;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.cs-notice {
+  padding-right: 20px;
+  overflow: hidden;
+  display: block;
+}
+
+.notice {
+  padding: 0;
+}
+
+.noti-ul {
+  display: block;
+}
+
+.noti-ul li {
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.noti-ul a {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 98%;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 400;
+  white-space: nowrap;
+  color: #303033;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+.footer-info {
+  position: relative;
+  padding-right: 200px;
+  display: block;
+}
+
+.escrow {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 42px;
+  right: 30px;
+}
+
+.escrow a {
+  width: 45px;
+  height: 42px;
+  display: inline-block;
+  overflow: hidden;
+  font-size: 40px;
+  color: #9a9a9a;
+  cursor: pointer;
+}
+
+.escrow span {
+  display: inline-block;
+  padding-left: 8px;
+  font-size: 11px;
+  color: #999;
+  line-height: 16px;
+}
+
+.footer-doc {
+  margin: 12px 0 4px;
+  cursor: pointer;
+}
+
+.footer-doc a {
+  font-weight: 700;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.footer-doc .doc-use {
+  font-weight: 400;
+}
+
+.doc-use::before {
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  margin: -1px 10px 1px;
+  background: #d4d4d4;
+  vertical-align: middle;
+  content: "";
+}
+
+.footer-adr {
+  margin: 0 0 70px;
+  font-size: 10px;
+  line-height: 24px;
+  color: #5d5d5d;
+}
+
+.footer-adr span {
+  padding-right: 10px;
+}
+
+.adr-btn {
+  display: inline-block;
+  color: white;
+  background-color: #a4a4a4;
+  padding: 0 7px;
+  line-height: 20px;
+  cursor: pointer;
+}
