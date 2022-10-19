@@ -6,7 +6,7 @@
   position: relative;
   display: block;
   box-sizing: border-box;
-  height: 5000px;
+  height: 5500px;
 }
 
 .main-brands img {
@@ -19,7 +19,7 @@
   width: 41.2%;
   padding: 0 2% 0 0;
   position: relative;
-  height: 5000px;
+  height: 5500px;
 }
 
 .brand-imgs::after {
@@ -43,7 +43,7 @@
   width: 54.8%;
   padding: 0;
   float: left;
-  height: 5000px;
+  height: 5500px;
   position: relative;
 }
 
