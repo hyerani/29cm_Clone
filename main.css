@@ -6,7 +6,7 @@
   position: relative;
   display: block;
   box-sizing: border-box;
-  height: 4350px;
+  height: 5000px;
 }
 
 .main-brands img {
@@ -19,7 +19,7 @@
   width: 41.2%;
   padding: 0 2% 0 0;
   position: relative;
-  height: 4350px;
+  height: 5000px;
 }
 
 .brand-imgs::after {
@@ -43,11 +43,10 @@
   width: 54.8%;
   padding: 0;
   float: left;
-  height: 4350px;
+  height: 5000px;
   position: relative;
 }
 
-/* flex 추가 */
 .brand-event {
   position: relative;
   margin: 0;
