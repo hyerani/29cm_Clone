@@ -19,7 +19,7 @@
   width: 41.2%;
   padding: 0 2% 0 0;
   position: relative;
-  height: 5500px;
+  height: 100%
 }
 
 .brand-imgs::after {
@@ -43,7 +43,7 @@
   width: 54.8%;
   padding: 0;
   float: left;
-  height: 5500px;
+  height: 100%;
   position: relative;
 }
 
